@@ -1,11 +1,11 @@
 # CARPATIA
 
-Versiunea curentă: **7.14.0** — Ultra extins, sunet original de vânt și surse pentru controlul manual AMD.
+Versiunea curentă: **7.15.0** — un singur munte pentru analiză/restaurare, citiri grupate și restaurări cu reîncercare.
 
-- [Descarcă ZIP-ul sursă](CARPATIA_7_14_0_ULTRA_WIND_SOURCE.zip)
-- [Raport și verificări](RAPORT_7_14_0.md)
-- [Previzualizare GPU Studio — date simulate](CARPATIA_7_14_0_gpu-studio.png)
-- [Profiluri CPU / GPU / Internet](CARPATIA_7_14_0_profiles.png)
-- [Ascultă noul sunet de vânt](CARPATIA_7_14_0_mountain-wind.wav)
+- [Descarcă ZIP-ul sursă](CARPATIA_7_15_0_FAST_PROFILES_SOURCE.zip)
+- [Raport și verificări](RAPORT_7_15_0.md)
+- [Munții noi — un buton pe fiecare profil](CARPATIA_7_15_0_mountains.png)
+- [Dashboard compact](CARPATIA_7_15_0_dashboard-compact.png)
+- [Backup & Restore — previzualizare cu date de test](CARPATIA_7_15_0_recovery.png)
 
-445 de teste și 72 de scenarii Chromium trecute. Surse pentru validare pe Windows 10/11, fără installer verificat sau chei de producție. Helperul AMD este inclus numai ca sursă: necesită SDK extern, build și validare pe Windows; controlul apare indisponibil fără el. NVIDIA/Intel OC nu este implementat. Păstrează datele de backup și cheile existente la actualizare.
+503 teste și 77 scenarii Chromium trecute. Operațiile profilurilor folosesc o sesiune PowerShell per operație; numărul redus de porniri și inventare este verificat prin teste. Timpii și scrierile reale pe Windows rămân de validat. ZIP-ul conține surse, fără installer verificat sau chei de producție. Helperul AMD rămâne sursă opțională, fără binar Windows inclus. Păstrează datele de backup și cheile existente la actualizare.
